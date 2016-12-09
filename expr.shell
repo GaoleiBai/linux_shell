@@ -1,0 +1,7 @@
+#!/bin/bash
+#example2  for  expr
+echo "请输入两个整数:"
+read x 
+read y 
+sum=`expr $x + $y`
+echo $sum
